@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="#46139B"
+    android:layout_height="match_parent">
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/_250sdp"
+      card_view:cardCornerRadius="@dimen/_20sdp"
+      android:layout_alignParentBottom="true"
+      android:layout_margin="16dp">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <TextView
+              android:id="@+id/txt_file_title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/_15sdp"
+              android:textColor="#000"
+              android:textStyle="bold"
+              android:text="Unlock new levels"
+              android:layout_centerInParent="true"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"/>
+
+          <ImageView
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:src="@drawable/lock"
+              android:id="@+id/lock"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"/>
+
+          <ImageView
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:id="@+id/instant"
+             android:layout_marginTop="@dimen/_147sdp"
+              android:src="@drawable/instantaccess"
+              android:layout_alignParentLeft="true"
+             />
+          <TextView
+              android:id="@+id/txt_file_instantaccess"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/_15sdp"
+              android:layout_below="@id/txt_file_title"
+              android:textColor="#000"
+              android:textStyle="bold"
+              android:layout_marginTop="@dimen/_15sdp"
+              android:text="Get instant access to all"
+              android:layout_centerInParent="true" />
+
+
+          <TextView
+              android:id="@+id/got"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginStart="20dp"
+              android:text="Continue"
+              android:layout_below="@id/txt_file_instantaccess"
+              android:layout_marginLeft="30dp"
+              android:layout_marginTop="30dp"
+              android:layout_marginEnd="20dp"
+              android:layout_marginRight="30dp"
+              android:background="@drawable/newbutton"
+              android:backgroundTint="#46139B"
+              android:gravity="center_vertical"
+              android:textAlignment="center"
+              android:textColor="#fff"
+              android:textSize="20sp"
+              android:textStyle="bold" />
+
+      </RelativeLayout>
+
+
+
+
+  </androidx.cardview.widget.CardView>
+    
+</RelativeLayout>

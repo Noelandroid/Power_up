@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Power up</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to Power up community!</string>
+    <string name="slide_1_desc">Power up community.</string>
+
+    <string name="slide_2_title">Android</string>
+    <string name="slide_2_desc">Power up community.</string>
+
+    <string name="otp_title">Please enter the 4 digit verification code</string>
+    <string name="otp_button_text">VERIFY</string>
+    <string name="resend_msg">Didn’t receive the OTP?</string>
+    <string name="resend_again_msg">Resend again</string>
+    <string name="sent_to_91_xxxx_xxx">sent to +91 XXXX XXX</string>
+</resources>
